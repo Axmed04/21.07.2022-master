@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* Btn stles start */
+.btn {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-w {
+    background-color: #571F9C;
+    border: #571F9C;
+}
+
+.btn-w :hover {
+    background-color: #571F9C;
+    color: #fff;
+}
+
+/* Btn stles end */
+/* Navbar start */
+
+header .header-top {
+    background-color: #571F9C;
+    color: #fff;
+}
+
+
+header .header-top .header-top-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+header .header-top .header-top-item .right ul {
+    display: flex;
+}
+
+header .header-top .header-top-item .right ul li {
+    list-style: none;
+}
+
+header .header-top .header-top-item .right ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .header-botton .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .header-botton .navbar .logo img {
+    width: 195px;
+    height: 55px;
+}
+
+header .header-botton .navbar .nav-items ul {
+    display: flex;
+}
+
+header .header-botton .navbar .nav-items ul li {
+    list-style: none;
+}
+
+
+header .header-botton .navbar .nav-items ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar end */
+
+
+/* Banner start */
+.banner {
+    background-image: url(../image/banner.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.banner .banner-info {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner .banner-info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.banner .banner-info h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.banner .banner-info h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Banner end */
+/* business start */
+.business{
+    background-color: #EDF5F8;
+}
+.business .consult-items{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* width: 25%; */
+    justify-content: space-around;
+    padding-top: 100px;
+
+    
+
+}
+.business .consult-items p{
+    color: #777777;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+    
+}
+.business .consult-items .consult-1 button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+.business .consult-items .consult-2,.consult-3,.consult-4{
+    text-align: center;
+    
+}
+.business .consult-items .consult-2 h3{
+    padding-bottom: 40px;
+}
+.business .consult-items .consult-3 h3{
+    padding-bottom: 40px;
+}
+.business .consult-items .consult-4 h3{
+    padding-bottom: 40px;
+}
+/* business end */
+.services .services-items{
+    text-align: center;
+}
+.services .services-items .services-1 h5{
+    color: #777777;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.services .services-items .services-1 h1{
+    
+}
