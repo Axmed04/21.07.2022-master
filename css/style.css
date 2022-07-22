@@ -231,11 +231,72 @@ header .header-botton .navbar .nav-items ul li a {
 /* services end */
 /* record start  */
 .record .record-items{
+    
     display: flex;
     justify-content: space-around;
-    /* width: 33%; */
+    
     flex-wrap: wrap;
+    margin-bottom: 90px;
 }
-.record .record-items .record1,.record2,.record3,.record4,.record5,.record6{
+.record .record-items .record-1,.record-2,.record-3,.record-4,.record-5,.record-6{
     text-align: center;
+}
+.record .record-items .record-1,.record-2,.record-3{
+    padding-bottom: 100px;
+}
+.record .record-items i{
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+.record .record-items h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.record .record-items h1{
+    margin-bottom: 20px;
+}
+.record .record-items p{
+    color: #777777;
+}
+/* record end  */
+/* money start  */
+
+.money .money-items{
+    display: flex;
+    margin-bottom: 110px;
+    
+}
+.money .money-items .money-left h3{
+    color: #777777;
+    margin-bottom: 20px;
+}
+.money .money-items .money-left h1{
+    margin-bottom: 30px;
+}
+.money .money-items .money-left p{
+    color: #777777;
+}
+.money .money-items .money-left button{
+    width: 140px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.money .money-items .money-right img{
+    width: 100vh;
+}
+/* money end  */
+/* perfect start  */
+.perfect{
+    background-color: #E8F1F4;
+}
+.perfect .perfect-team{
+    text-align: center;
+}
+.perfect .perfect-team h4{
+    color: #777777;
+    margin-bottom: 20px;
+}
+.perfect .perfect-team h1{
+    font-size: 65px;
 }
