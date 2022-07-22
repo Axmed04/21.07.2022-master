@@ -59,6 +59,7 @@ header .header-top .header-top-item .right ul {
 
 header .header-top .header-top-item .right ul li {
     list-style: none;
+    padding-left: 25px;
 }
 
 header .header-top .header-top-item .right ul li a {
@@ -140,10 +141,10 @@ header .header-botton .navbar .nav-items ul li a {
 }
 .business .consult-items{
     display: flex;
-    /* flex-wrap: nowrap; */
-    /* width: 25%; */
+    
     justify-content: space-around;
     padding-top: 100px;
+    padding-bottom: 90px;
 
     
 
@@ -165,8 +166,23 @@ header .header-botton .navbar .nav-items ul li a {
     text-align: center;
     
 }
+.business .consult-items .consult-1 h3{
+    padding-bottom: 40px;
+}
 .business .consult-items .consult-2 h3{
     padding-bottom: 40px;
+}
+.business .consult-items .consult-2 i{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.business .consult-items .consult-3 i{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.business .consult-items .consult-4 i{
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 .business .consult-items .consult-3 h3{
     padding-bottom: 40px;
@@ -175,6 +191,7 @@ header .header-botton .navbar .nav-items ul li a {
     padding-bottom: 40px;
 }
 /* business end */
+/* services start */
 .services .services-items{
     text-align: center;
 }
@@ -186,5 +203,39 @@ header .header-botton .navbar .nav-items ul li a {
     line-height: 1.5;
 }
 .services .services-items .services-1 h1{
-    
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.services .services-items .services-1 p{
+    /* width: 50%; */
+    padding-right: 110px;
+    padding-left: 110px;
+    color: #777777;
+    margin-bottom: 130px;
+
+}
+.services .services-items .services-2 button{
+    width: 180px;
+    height: 60px;
+    font-size: 37px;
+    margin-bottom: 60px;
+}
+.services .services-items .services-2 p{
+    color: #777777;
+    margin-bottom: 15px;
+}
+.services .services-items .services-2 h1{
+    font-size: 65px;
+    margin-bottom: 80px;
+}
+/* services end */
+/* record start  */
+.record .record-items{
+    display: flex;
+    justify-content: space-around;
+    /* width: 33%; */
+    flex-wrap: wrap;
+}
+.record .record-items .record1,.record2,.record3,.record4,.record5,.record6{
+    text-align: center;
 }
