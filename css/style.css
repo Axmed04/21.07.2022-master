@@ -289,6 +289,7 @@ header .header-botton .navbar .nav-items ul li a {
 /* perfect start  */
 .perfect{
     background-color: #E8F1F4;
+    padding-bottom: 100px;
 }
 .perfect .perfect-team{
     text-align: center;
@@ -296,7 +297,91 @@ header .header-botton .navbar .nav-items ul li a {
 .perfect .perfect-team h4{
     color: #777777;
     margin-bottom: 20px;
+    padding-top: 80px;
 }
 .perfect .perfect-team h1{
     font-size: 65px;
+}
+.perfect .perfect-items{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+.perfect .perfect-items .perfect-1,.perfect-2,.perfect-3{
+    background-color: #fff;
+    text-align: center;
+    width: 28%;
+    border-radius: 14px;
+}
+.perfect .perfect-items .perfect-1 img{
+    width: 140px;
+    border-radius: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.perfect .perfect-items .perfect-2 img{
+    width: 140px;
+    border-radius: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.perfect .perfect-items .perfect-3 img{
+    width: 140px;
+    border-radius: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.perfect .perfect-items .perfect-1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.perfect .perfect-items .perfect-2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.perfect .perfect-items .perfect-3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.perfect .perfect-items .perfect-1 h3{
+    color: #777777;
+    margin-bottom: 40px;
+}
+.perfect .perfect-items .perfect-2 h3{
+    color: #777777;
+    margin-bottom: 40px;
+}
+.perfect .perfect-items .perfect-3 h3{
+    color: #777777;
+    margin-bottom: 40px;
+}
+.perfect .perfect-items .perfect-1 p{
+    color: #777777;
+    margin-bottom: 40px;
+}
+/* perfec end  */
+/* number start  */
+.number .number-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.number .number-items .number-1,.number-2,.number-3,.number-4{
+    text-align: center;
+}
+.number .number-items .number-1 i{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.number .number-items .number-2 i{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.number .number-items .number-3 i{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.number .number-items .number-4 i{
+    font-size: 50px;
+    margin-bottom: 40px;
 }
