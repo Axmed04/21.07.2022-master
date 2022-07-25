@@ -385,3 +385,55 @@ header .header-botton .navbar .nav-items ul li a {
     font-size: 50px;
     margin-bottom: 40px;
 }
+/* number end  */
+/* blog start  */
+.blog .blog-top{
+    margin-top: 110px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.blog .blog-top h4{
+    color: #777777;
+    margin-bottom: 15px;
+}
+.blog .blog-top h1{
+    font-size: 60px;
+}
+.blog .blog-items{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    /* text-align: center; */
+}
+.blog .blog-items img{
+    width: 95%;
+    margin-bottom: 20px;
+}
+.blog .blog-items a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.blog .blog-items p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#777777 ;
+}
+.blog .blog-items button{
+    font-size: 15px;
+    margin-bottom: 90px;
+}
+/* blog end  */
+/* legendary start  */
+.legendary .legendary-items{
+    display: flex;
+}
+.legendary .legendary-items .legendary-1{
+    display: flex;
+}
+.legendary .legendary-items .legendary-2{
+    display: flex;
+}
+.legendary .legendary-items .legendary-3{
+    display: flex;
+}
